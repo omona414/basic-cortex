@@ -1,0 +1,16 @@
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+rtostest\tasks.o: F:\program\kkeil\ARM\ARMCC\Bin\..\include\stdlib.h
+rtostest\tasks.o: F:\program\kkeil\ARM\ARMCC\Bin\..\include\string.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rtostest\tasks.o: F:\program\kkeil\ARM\ARMCC\Bin\..\include\stddef.h
+rtostest\tasks.o: F:\program\kkeil\ARM\ARMCC\Bin\..\include\stdint.h
+rtostest\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+rtostest\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

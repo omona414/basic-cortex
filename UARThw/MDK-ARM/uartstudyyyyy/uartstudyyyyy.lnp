@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"uartstudyyyyy\startup_stm32f429xx.o"
+"uartstudyyyyy\main.o"
+"uartstudyyyyy\gpio.o"
+"uartstudyyyyy\usart.o"
+"uartstudyyyyy\stm32f4xx_it.o"
+"uartstudyyyyy\stm32f4xx_hal_msp.o"
+"uartstudyyyyy\stm32f4xx_hal_tim.o"
+"uartstudyyyyy\stm32f4xx_hal_tim_ex.o"
+"uartstudyyyyy\stm32f4xx_hal_uart.o"
+"uartstudyyyyy\stm32f4xx_hal_rcc.o"
+"uartstudyyyyy\stm32f4xx_hal_rcc_ex.o"
+"uartstudyyyyy\stm32f4xx_hal_flash.o"
+"uartstudyyyyy\stm32f4xx_hal_flash_ex.o"
+"uartstudyyyyy\stm32f4xx_hal_flash_ramfunc.o"
+"uartstudyyyyy\stm32f4xx_hal_gpio.o"
+"uartstudyyyyy\stm32f4xx_hal_dma_ex.o"
+"uartstudyyyyy\stm32f4xx_hal_dma.o"
+"uartstudyyyyy\stm32f4xx_hal_pwr.o"
+"uartstudyyyyy\stm32f4xx_hal_pwr_ex.o"
+"uartstudyyyyy\stm32f4xx_hal_cortex.o"
+"uartstudyyyyy\stm32f4xx_hal.o"
+"uartstudyyyyy\stm32f4xx_hal_exti.o"
+"uartstudyyyyy\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "uartstudyyyyy\uartstudyyyyy.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "uartstudyyyyy.map" -o uartstudyyyyy\uartstudyyyyy.axf

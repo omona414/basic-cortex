@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"gpioexittest\startup_stm32f429xx.o"
+"gpioexittest\main.o"
+"gpioexittest\gpio.o"
+"gpioexittest\stm32f4xx_it.o"
+"gpioexittest\stm32f4xx_hal_msp.o"
+"gpioexittest\stm32f4xx_hal_tim.o"
+"gpioexittest\stm32f4xx_hal_tim_ex.o"
+"gpioexittest\stm32f4xx_hal_rcc.o"
+"gpioexittest\stm32f4xx_hal_rcc_ex.o"
+"gpioexittest\stm32f4xx_hal_flash.o"
+"gpioexittest\stm32f4xx_hal_flash_ex.o"
+"gpioexittest\stm32f4xx_hal_flash_ramfunc.o"
+"gpioexittest\stm32f4xx_hal_gpio.o"
+"gpioexittest\stm32f4xx_hal_dma_ex.o"
+"gpioexittest\stm32f4xx_hal_dma.o"
+"gpioexittest\stm32f4xx_hal_pwr.o"
+"gpioexittest\stm32f4xx_hal_pwr_ex.o"
+"gpioexittest\stm32f4xx_hal_cortex.o"
+"gpioexittest\stm32f4xx_hal.o"
+"gpioexittest\stm32f4xx_hal_exti.o"
+"gpioexittest\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "gpioexittest\gpioexittest.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "gpioexittest.map" -o gpioexittest\gpioexittest.axf
